@@ -1,0 +1,243 @@
+:root{
+   --primary: #2c5e92;
+    --secondary: #4caf50;
+    --accent: #ff9800;
+   --light: #f8f9fa;
+   --dark: #343a40;
+   --text: #333;
+   --shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.N0{
+   display: flex;
+  justify-content: space-between;  
+  padding: 15px 0;
+}
+ .N1{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.N2{
+  width: 60px;
+  height: 60px;
+  background: blue;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+ font-size: 24px;
+}
+.N3{
+   font-size: 40px;
+   font-weight: 500px;
+   color: #0056b3;
+}
+.N3 span{
+  color: green;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  justify-content: space-evenly;
+  color: blue;
+}
+ nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  transition: color 0.3s;
+  position: relative;
+ }
+
+ nav a:hover {
+   color:blue;
+  }
+  
+ h1, h2, h3, h4 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.karsy {
+      background: linear-gradient(135deg, var(--primary) 0%, #1a3a5f 100%);
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+}
+.karsy1{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.karsy h1{
+  font-size: 3.5rem;
+   margin-bottom: 20px;
+  color: white;
+   line-height: 1.2;
+}
+.karsy p {
+   font-size: 1.25rem;
+   margin-bottom: 30px;
+   opacity: 0.9;
+}
+.servas {
+  padding: 100px 0;
+  background-color: white;
+}
+.titre {
+      text-align: center;
+      margin-bottom: 60px;
+}
+.titre h2 {
+      font-size: 50px;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 15px;
+}
+.titre h2::after{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+      background-color: var(--secondary);
+      border-radius: 2px;
+}
+.nathan{
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+   border-radius: 50px;
+
+}
+.nathan1{
+flex: 1;
+margin: 0 10px;
+background-color:#f8f9fa ;
+width: 100%;
+height: 240px;
+ border-radius: 50px;
+ padding: 40px 30px;
+ text-align: center;
+}
+.jose {
+      width: 80px;
+        height: 80px;
+      background: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 25px;
+      color: white;
+      font-size: 30px;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+}
+button {
+      width: 65%;
+      padding: 12px;
+      background: orange;
+      color: #fff;
+      border: none;
+      margin-top: 20px;
+      border-radius: 600px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: rgb(75, 52, 10);
+    } 
+.bas {
+   background-color: var(--dark);
+   color: white;
+   padding: 70px 0 20px;
+}
+.bas1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .bas2 h4 {
+          color: white;
+          margin-bottom: 25px;
+          font-size: 1.3rem;
+          position: relative;
+          padding-bottom: 10px;
+  }
+ .bas2 p {
+   margin-bottom: 20px;
+   color: white;
+ }
+ .liens  {
+  text-decoration: none;
+ }
+.liens  a {
+  text-decoration: none;
+  color: white;
+}
+.andy {
+  justify-content: center;
+  margin-left: 455px;
+}
+.monica {
+  padding: 2rem auto;
+  max-width: 900px;
+  margin:2rem auto;
+  padding: 2rem ;
+  background-color:#ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.0.1);
+}
+.anyta{
+  justify-content: center;
+  text-decoration: none;
+}
+.
+{
+  body {
+    font-size: 16px;
+  }
+
+  .menu, .image {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .menu, .image {
+    width: 100%;
+    flex-direction: column;
+  }
+}
